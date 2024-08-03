@@ -2,12 +2,12 @@ package routes
 
 import (
 	"net/http"
-	"github.com/gin-gonic/gin"
 
+	"github.com/gin-gonic/gin"
 )
 
 func SetupRoutes(router *gin.Engine) {
-	api := router.Group("/v1")
+	// api := router.Group("/v1")
 
 	// auth.SetupAuthRoutes(api)
 	// user.SetupUserRoutes(api)
