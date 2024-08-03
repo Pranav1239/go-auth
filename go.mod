@@ -1,4 +1,4 @@
-module techsolace
+module Project
 
 go 1.22.3
 
